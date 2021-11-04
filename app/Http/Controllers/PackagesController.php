@@ -13,10 +13,8 @@ class PackagesController extends Controller
 
         $packages = Package::all();
 
-        dd($packages);
+        // dd($packages);
 
-        return view('packages', [ 
-            'packages' => $packages,
-        ]);
+        return view('packages', compact('packages'));
     }
 }
