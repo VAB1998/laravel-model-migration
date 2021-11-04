@@ -12173,3 +12173,38 @@ fieldset:disabled .btn {
   }
 }
 
+#packages {
+  padding: 60px 0;
+}
+
+#packages .cs_card {
+  background-color: #ffffff7e;
+  color: #f5f5f5;
+  border: 2px solid transparent;
+  transition: 0.2s linear;
+}
+
+#packages .cs_card:hover {
+  border: 2px solid #f5f5f5;
+}
+
+#package {
+  padding: 60px 0;
+}
+
+#package .info {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#package .info h2,
+#package .info .h2 {
+  text-align: center;
+  color: #f5f5f5;
+}
+
+body {
+  min-height: 100vh;
+  background-image: linear-gradient(to right top, #051937, #003b5d, #00607f, #00889b, #35b0b0);
+}
+

@@ -17,4 +17,12 @@ class PackagesController extends Controller
 
         return view('packages', compact('packages'));
     }
+
+    public function show($id){
+
+        $package = Package::findOrFail($id);
+
+
+        return view('package', compact('package'));
+    }
 }
